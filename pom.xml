@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.jmdns</groupId>
 	<artifactId>jmdns</artifactId>
-	<version>3.5.7-SNAPSHOT</version>
+	<version>3.5.7-PP</version>
 	<name>JmDNS</name>
 	<packaging>jar</packaging>
 	<description>JmDNS is a Java implementation of multi-cast DNS and can be used for service registration and discovery in local area networks. JmDNS is fully compatible with Apple's Bonjour.
@@ -183,6 +183,7 @@ The project was originally started in December 2002 by Arthur van Hoff at Strang
 			    <version>2.10.3</version>
 			    <configuration>
 			        <outputDirectory>${project.build.directory}/javadoc</outputDirectory>
+					<source>8</source>
 			    </configuration>
 			    <executions>
 			        <execution>
